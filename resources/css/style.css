@@ -1,9 +1,44 @@
 body {
+    text-align:center;
+    align-items: center;
     background-color: black;
+    color:white;
 }
+
+p {
+}
+
+/* HEADINGS */
 
 .header--main {
     color:darkgoldenrod;
     text-decoration: underline;
-    
 }
+
+.header--sub {
+    color: white;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+/* IMAGES */
+.box {
+    width:100%;
+    margin: 50px auto;
+}
+
+.img--1 {
+    width:200px;
+
+}
+.img--1:hover {
+   
+    transform:scale(1.5);
+    -ms-transform:scale(4.5); /* IE 9 */
+    -moz-transform:scale(4.5); /* Firefox */
+    -webkit-transform:scale(4.5); /* Safari and Chrome */
+    -o-transform:scale(4.5); /* Opera */
+}
+
+/* LISTS AND PARAGRAPHS */
+
