@@ -53,13 +53,14 @@ p {
 
 }
 
+/*
 .img--1:hover {
     transform:scale(1.5);
-    -ms-transform:scale(4.5); /* IE 9 */
-    -moz-transform:scale(4.5); /* Firefox */
-    -webkit-transform:scale(4.5); /* Safari and Chrome */
-    -o-transform:scale(4.5); /* Opera */
-} 
+    -ms-transform:scale(4.5);
+    -moz-transform:scale(4.5);
+    -webkit-transform:scale(4.5); 
+    -o-transform:scale(4.5);
+} */ 
 
 /* LISTS AND PARAGRAPHS */
 
