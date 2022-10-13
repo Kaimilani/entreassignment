@@ -6,6 +6,7 @@ body {
 }
 
 p {
+    color:white;
 }
 
 /* HEADINGS */
@@ -21,18 +22,44 @@ p {
     margin-top: 50px;
 }
 
-/* IMAGES */
+/* CONTAINERS */
+
 .box {
     width:100%;
     margin: 50px auto;
 }
+
+.box--2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    height: 100%;
+    z-index: -1;
+    column-count: 4;
+    margin-bottom: 50px;
+    align-items: baseline;
+
+}
+
+.box--item {
+    background-color: rgb(255, 255, 255, 0.7);
+    color: black;
+    flex: 1;
+    border-radius: 20px;
+    padding: 20px;
+    border: 5px solid darkgoldenrod;
+    margin-bottom: 10px;
+    
+}
+
+/* IMAGES */
 
 .img--1 {
     width:200px;
 
 }
 .img--1:hover {
-   
     transform:scale(1.5);
     -ms-transform:scale(4.5); /* IE 9 */
     -moz-transform:scale(4.5); /* Firefox */
